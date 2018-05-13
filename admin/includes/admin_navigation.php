@@ -33,7 +33,7 @@
 
 
 				<li class="nav-item">
-					<a href="../admin/category.php" class="nav-link">Comments</a>
+					<a href="../admin/Comments.php" class="nav-link">Comments</a>
 				</li>
 
 				<li class="nav-item dropdown">

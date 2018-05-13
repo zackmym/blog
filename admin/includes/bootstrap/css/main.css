@@ -6,3 +6,8 @@
 	color: rgb(0, 0, 0);
 }
 
+footer {
+    margin: 50px 0;
+/*    bottom: 0;*/
+}
+

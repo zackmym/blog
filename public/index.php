@@ -9,7 +9,7 @@
 		<div class="col-md-8">
 			<div class="display">
 				<?php 
-					$query = "SELECT * FROM posts ORDER BY post_id DESC";
+					$query = "SELECT * FROM posts WHERE post_status = 'Publish' ORDER BY post_id DESC";
 					$result = mysqli_query($conn, $query);
 					confirm_query($result);
 
@@ -42,12 +42,14 @@
 
 		<?php require_once('../admin/includes/sidebar.php'); ?>
 	</div>
-</div>
+
 
 <?php 
-	if(isset($_GET['id'])) {
-		$current_post_id = $_GET['id'];
-	}
+	// if(isset($_GET['id'])) {
+	// 	$current_post_id = $_GET['id'];
+
+		
+	// }
  ?>
 
 
