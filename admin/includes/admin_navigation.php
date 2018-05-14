@@ -39,8 +39,8 @@
 				<li class="nav-item dropdown">
 					<a href="#" class="nav-link dropdown-toggle" id="users" data-toggle="dropdown">Users</a>
 					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">View All Users</a>
-						<a class="dropdown-item" href="#">Add User</a>
+						<a class="dropdown-item" href="view_users.php">View All Users</a>
+						<a class="dropdown-item" href="add_user.php">Add User</a>
 					</div>
 				</li>
 
